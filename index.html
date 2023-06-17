@@ -4,13 +4,13 @@
     <title>Basic Banking System</title>
     <!-- Include CSS stylesheets and JavaScript files -->
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
+    <script src="script.js"  type="module"></script>
   </head>
   <body>
     <header>
       <nav>
         <div class="logo">
-          <img src="/image/logo/logo_small.png" alt="Bank Logo" />
+          <img src="/logo/logo_small.png" alt="Bank Logo" style="width: 50px" />
         </div>
         <ul class="nav-links">
           <li><a href="customers.html">View All Customers</a></li>
@@ -32,11 +32,20 @@
         </div>
       </section>
       <section class="customer-section">
-        <h2 class="section-heading">Our Valued Customers</h2>
+        <!-- <h2 class="section-heading">Our Valued Customers</h2> -->
         <ul id="customerList" class="customer-list"></ul>
       </section>
     </main>
-    <footer>
+    <footer
+      style="
+        padding: 20px;
+        text-align: center;
+        bottom: 0px;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+      "
+    >
       <p>&copy; 2023 Basic Banking System. All rights reserved.</p>
     </footer>
   </body>

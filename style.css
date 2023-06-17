@@ -1,108 +1,114 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  
-  h1 {
-    text-align: center;
-  }
-  
-  a {
-    text-decoration: none;
-  }
-  
-  /* Navigation */
-  nav {
-    background-color: #003f8d;
-    color: #fff;
-    padding: 10px;
-  }
-  
-  nav a {
-    color: #fff;
-    margin-right: 10px;
-  }
-  
-  /* Table Styles */
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-  }
-  
-  th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  /* Form Styles */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.hero {
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+nav {
+  background-color: #003f8d;
+  color: #fff;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 10px;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Form Styles */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #003f8d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Customer Details Styles */
+.customer-details {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.customer-details div {
+  margin-bottom: 10px;
+}
+
+.customer-details label {
+  display: inline-block;
+  width: 100px;
+}
+
+/* Buttons */
+.button {
+  background-color: #003f8d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #002b63;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .customer-details,
   form {
-    margin-top: 20px;
+    max-width: 100%;
   }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-  }
-  
-  input[type="text"],
-  input[type="number"],
-  select {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 10px;
-  }
-  
-  input[type="submit"] {
-    background-color: #003f8d;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
-  
-  /* Customer Details Styles */
-  .customer-details {
-    max-width: 400px;
-    margin: 0 auto;
-  }
-  
-  .customer-details div {
-    margin-bottom: 10px;
-  }
-  
-  .customer-details label {
-    display: inline-block;
-    width: 100px;
-  }
-  
-  /* Buttons */
-  .button {
-    background-color: #003f8d;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-    cursor: pointer;
-  }
-  
-  .button:hover {
-    background-color: #002b63;
-  }
-  
-  /* Responsive Styles */
-  @media (max-width: 768px) {
-    .customer-details,
-    form {
-      max-width: 100%;
-    }
-  }
-  
-  
+}
+
+.transfer-body {
+  padding: 10px;
+
+}
