@@ -4,28 +4,79 @@
     <title>View All Customers</title>
     <!-- Include CSS stylesheets and JavaScript files -->
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <script src="/script.js"  type="module"></script>
+    <script src="/script.js" type="module"></script>
   </head>
-  <body style="padding: 10px">
-    <h1>Customer List</h1>
-    <table>
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Current Balance</th>
-        <th>Action</th>
-      </tr>
-      <tr>
-        <th>Prashant Gupta</th>
-        <th>abc@gmail.com</th>
-        <th>40,000</th>
-        <th>Action</th>
-      </tr>
-      <!-- Dynamic customer data will be inserted here -->
-    </table>
-    <a href="index.html" class="back-link">Back to Home</a>
-    <script>
-      // Any specific JavaScript code for the customer list page
-    </script>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="image/logo/logo_small.png" alt="Bank Logo" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="transfer.html">Transfer Money</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Customer List</h1>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Email</th>
+          <th>Current Balance</th>
+          <th>Action</th>
+        </tr>
+        <tr>
+          <td>Prashant Gupta</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Rajesh Kumar</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Abhishek Singh</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Ramesh Yadav</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Kishore Rajput</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Madhu Patel</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <tr>
+          <td>Sneha Shukla</td>
+          <td>abc@gmail.com</td>
+          <td>40,000</td>
+          <td><a href="customer.html">View Details</a></td>
+        </tr>
+        <!-- Dynamic customer data will be inserted here -->
+      </table>
+      <a href="index.html" class="back-link">Back to Home</a>
+    </main>
+    <footer>
+      <p>&copy; 2023 Basic Banking System. All rights reserved.</p>
+    </footer>
   </body>
 </html>

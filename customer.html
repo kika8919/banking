@@ -4,26 +4,41 @@
     <title>Customer Details</title>
     <!-- Include CSS stylesheets and JavaScript files -->
     <link rel="stylesheet" type="text/css" href="/style.css" />
-    <script src="/script.js" type="module"></script>
+    <script src="/script.js"></script>
   </head>
   <body>
-    <h1>Customer Details</h1>
-    <div class="customer-details">
-      <label for="name">Name:</label>
-      <span id="name"></span>
-    </div>
-    <div class="customer-details">
-      <label for="email">Email:</label>
-      <span id="email"></span>
-    </div>
-    <div class="customer-details">
-      <label for="balance">Current Balance:</label>
-      <span id="balance"></span>
-    </div>
-    <a href="customers.html" class="back-link">Back to Customer List</a>
-    <a href="transfer.html" class="button">Transfer Money</a>
-    <script>
-      // Any specific JavaScript code for the customer details page
-    </script>
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="image/logo/logo_small.png" alt="Bank Logo" />
+          </a>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="transfer.html">Transfer Money</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <h1>Customer Details</h1>
+      <div class="customer-details">
+        <label for="name">Name:</label>
+        <span id="name">Prashant Gupta</span>
+      </div>
+      <div class="customer-details">
+        <label for="email">Email:</label>
+        <span id="email">abc@gmail.com</span>
+      </div>
+      <div class="customer-details">
+        <label for="balance">Current Balance:</label>
+        <span id="balance">40,000</span>
+      </div>
+      <a href="customers.html" class="back-link">Back to Customer List</a>
+      <a href="transfer.html" class="button">Transfer Money</a>
+    </main>
+    <footer>
+      <p>&copy; 2023 Basic Banking System. All rights reserved.</p>
+    </footer>
   </body>
 </html>
